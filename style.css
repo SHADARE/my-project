@@ -5,27 +5,32 @@
     box-sizing: border-box;
 }
 body{
-    background-image: -o-linear-gradient();
+    background: #ccc;
 }
 
 .pricing{
     justify-content: center;
-    margin-left: 51rem;
+    margin-left: 60rem;
+    margin-top: 4rem;
     /* margin-top: 10rem; */
 }
 .main{
     display: flex;
     margin-top: 15rem;
     margin-left: 27rem;
-    
+    box-shadow: 3px 3px 10px black;
+    margin-right: 20rem;
+    padding: 1rem;
 }
 .first-container{
     height: 26.7rem;
     width: 20rem;
     border-radius: 7px;
-    border-style: dotted;
+    border: none;
+    box-shadow: 5px 5px 10px black;
     border-color: black;
     /* display: flex; */
+    background: #fff;
 }
 .first-container:hover{
     /* background: cornflowerblue; */
