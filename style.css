@@ -4,14 +4,18 @@
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
 }
+body{
+    background-image: -o-linear-gradient();
+}
 
 .pricing{
     justify-content: center;
     margin-left: 51rem;
+    /* margin-top: 10rem; */
 }
 .main{
     display: flex;
-    margin-top: 10rem;
+    margin-top: 15rem;
     margin-left: 27rem;
     
 }
@@ -24,7 +28,7 @@
     /* display: flex; */
 }
 .first-container:hover{
-    background: cornflowerblue;
+    /* background: cornflowerblue; */
 }
 .basic{
     font-size: 1.2rem;
@@ -37,7 +41,7 @@
     font-size: 3rem;
     margin-left: 4.3rem;
     font-weight: 4rem;
-    opacity: 0.71;
+    /* opacity: 0.71; */
 }
 #storage{
     margin-left: 4.5rem;
@@ -56,11 +60,14 @@
     height: 2.3rem;
     margin-left: 2rem;
     margin-top: 1.7rem;
-    color: darkslateblue;
-    border-color: darkslateblue;
+    /* color: darkslateblue; */
+    /* border-color: darkslateblue; */
     border-radius: 7px;
-    background: white;
+    background: dodgerblue;
     cursor: pointer;
+    color: #fff;
+    /* border-style: hidden; */
+    border-style: hidden;
 
 }
 #learn-more-button:hover{
@@ -96,29 +103,102 @@
     height: 30rem;
     width: 20rem;
     border-radius: 7px;
-    border-style: dotted;
+    border-style: hidden;
     border-color: black;
     margin-top: -1.8rem;
+    /* background-color: rgb(84, 162, 241); */
+    color: #fff;
+    background: linear-gradient(145deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
 
+}
+.lo{
+    margin-top: -1.4rem;
+    /* padding: 10px 10px; */
+    width: 16rem;
+    margin-left: 2rem;
+
+}
+.la{
+    margin-top: 1.2rem;
+    margin-left: 2rem;
+    width: 16rem;
+}
+.lp{
+    margin-left: 2rem;
+    width: 16rem;
+
+}
+.kk{
+    margin-left: 2rem;
+    width: 16rem;
+
+}
+.ju{
+    margin-left: 2rem;
+    width: 16rem;
+
+}
+.de{
+    margin-left: 2rem;
+    width: 16rem;
+}
+.mw{
+    margin-left: 2rem;
+    width: 16rem;
 }
 .dollars{
     font-size: 4rem;
     margin-left: 3.8rem;
     font-weight: 4rem;
-    opacity: 0.71;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    /* opacity: 0.71; */
+    margin-top: 1.4rem;
+    margin-bottom: 0.8rem;
 }
-.main .price-toggler{
-    /* margin-top: 20px; */
-    display: inline-block;
-    /* padding: 5px; */
-    /* border: 2px solid #000; */
-    background: #fff;
-}.
+
 .main .price-toggler span{
     padding: 10px 30px;
     color: #444;
     font-size: 20px;
 }
-.main .price-toggler span
+.main .price-toggler span{
+    padding: 10px 30px;
+    color: #444;
+    font-size: 20px;
+    display: inline-block;
+}
+.main .price-toggler span.active{
+    background: #444;
+    color: #fff;
+}
+#storages{
+    margin-left: 5.4rem;
+    /* margin-top: -1rem; */
+    /* margin-bottom: 1rem; */
+    justify-content: center;
+
+}
+span{
+    font-size: 2.4rem;
+}
+.JJJA{
+    display: flex;
+    margin-top: -7rem;
+    margin-left: 10rem;
+    /* justify-content: center; */
+}
+#learn-more-buttong{
+    width: 15rem;
+    height: 2.3rem;
+    margin-left: 2rem;
+    margin-top: 1.7rem;
+    border-radius: 7px;
+    color: hsl(237, 63%, 64%);
+    border-style: hidden;
+    font-weight: 700;
+
+}
+.uni{
+    margin-left: 2rem;
+    width: 16rem;
+
+}
