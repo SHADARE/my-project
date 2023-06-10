@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.pricing{
+    justify-content: center;
+    margin-left: 51rem;
+}
+.main{
+    display: flex;
+    margin-top: 10rem;
+    margin-left: 27rem;
+    
+}
+.first-container{
+    height: 26.7rem;
+    width: 20rem;
+    border-radius: 7px;
+    border-style: dotted;
+    border-color: black;
+    /* display: flex; */
+}
+.first-container:hover{
+    background: cornflowerblue;
+}
+.basic{
+    font-size: 1.2rem;
+    margin-left: 8rem;
+    opacity: 0.6;
+    margin-bottom: 1.7rem;
+    margin-top: 1.5rem;
+}
+.dollar{
+    font-size: 3rem;
+    margin-left: 4.3rem;
+    font-weight: 4rem;
+    opacity: 0.71;
+}
+#storage{
+    margin-left: 4.5rem;
+    margin-top: 19px;
+}
+#allowed{
+    margin-left: 4.5rem;
+    margin-top: 19px;
+}
+#up-to{
+    margin-left: 4.5rem;
+    margin-top: 19px;
+}
+#learn-more-button{
+    width: 15rem;
+    height: 2.3rem;
+    margin-left: 2rem;
+    margin-top: 1.7rem;
+    color: darkslateblue;
+    border-color: darkslateblue;
+    border-radius: 7px;
+    background: white;
+    cursor: pointer;
+
+}
+#learn-more-button:hover{
+    /* background: darkslateblue; */
+}
+
+/* .price-toggler{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid #000;
+    background: #fff; */
+}
+/* .first-container .price-toggle span.active{
+    background: #444;
+    color: #fff;
+} */
+
+.first-containe{
+    height: 26.7rem;
+    width: 20rem;
+    border-radius: 7px;
+    border-style: dotted;
+    border-color: black;
+
+}
+.basics{
+    margin-left: 5rem;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+}
+.first-containers{
+    height: 30rem;
+    width: 20rem;
+    border-radius: 7px;
+    border-style: dotted;
+    border-color: black;
+    margin-top: -1.8rem;
+
+}
+.dollars{
+    font-size: 4rem;
+    margin-left: 3.8rem;
+    font-weight: 4rem;
+    opacity: 0.71;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.main .price-toggler{
+    /* margin-top: 20px; */
+    display: inline-block;
+    /* padding: 5px; */
+    /* border: 2px solid #000; */
+    background: #fff;
+}.
+.main .price-toggler span{
+    padding: 10px 30px;
+    color: #444;
+    font-size: 20px;
+}
+.main .price-toggler span
